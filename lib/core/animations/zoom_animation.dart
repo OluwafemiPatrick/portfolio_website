@@ -20,8 +20,7 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
   void initState() {
     super.initState();
 
-    _controller =
-        AnimationController(vsync: this, duration: const Duration(seconds: 4));
+    _controller = AnimationController(vsync: this, duration: const Duration(seconds: 4));
 
     sizeAnimation = Tween(begin: 0.0, end: 0.2).animate(CurvedAnimation(
         parent: _controller,
@@ -91,8 +90,8 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
               color: Colors.black.withOpacity(0.8),
               image: const DecorationImage(
                 fit: BoxFit.cover,
-                alignment: Alignment.bottomLeft,
-                image: AssetImage('assets/imgs/IMG_0107.png'),
+                alignment: Alignment.topCenter,
+                image: AssetImage('assets/imgs/oluwafemi_patrick.jpg'),
               ),
             ),
           ),

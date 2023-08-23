@@ -42,8 +42,7 @@ class HomeTab extends StatelessWidget {
                   children: [
                     Text(
                       hellotag,
-                      style: AppText.h3!
-                          .copyWith(fontSize: isFontSize(context, 18)),
+                      style: AppText.h3!.copyWith(fontSize: isFontSize(context, 15)),
                     ),
                     EntranceFader(
                       offset: const Offset(0, 0),
@@ -61,27 +60,27 @@ class HomeTab extends StatelessWidget {
                     fontWeight: FontWeight.w600,
                   ),
                 ),
-                EntranceFader(
-                  offset: const Offset(-10, 0),
-                  delay: const Duration(seconds: 1),
-                  duration: const Duration(milliseconds: 800),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        "A ",
-                        style: TextStyle(
-                          fontSize: isFontSize(context, 24),
-                          fontWeight: FontWeight.w400,
-                        ),
-                      ),
-                      AnimatedTextKit(
-                        animatedTexts: tabList,
-                        isRepeatingAnimation: true,
-                      ),
-                    ],
-                  ),
-                ),
+                // EntranceFader(
+                //   offset: const Offset(-10, 0),
+                //   delay: const Duration(seconds: 1),
+                //   duration: const Duration(milliseconds: 800),
+                //   child: Row(
+                //     crossAxisAlignment: CrossAxisAlignment.center,
+                //     children: [
+                //       Text(
+                //         "A ",
+                //         style: TextStyle(
+                //           fontSize: isFontSize(context, 24),
+                //           fontWeight: FontWeight.w400,
+                //         ),
+                //       ),
+                //       AnimatedTextKit(
+                //         animatedTexts: tabList,
+                //         isRepeatingAnimation: true,
+                //       ),
+                //     ],
+                //   ),
+                // ),
                 Space.y(1.5.w)!,
                 Padding(
                   padding: EdgeInsets.only(right: 50.w),

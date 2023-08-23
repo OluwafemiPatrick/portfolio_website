@@ -56,21 +56,21 @@ class HomeDesktop extends StatelessWidget {
                         fontSize: 50,
                         fontWeight: FontWeight.w600,
                       )),
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      const Text("A ",
-                          style: TextStyle(
-                            fontSize: 32,
-                            fontWeight: FontWeight.w400,
-                          )),
-                      AnimatedTextKit(
-                        isRepeatingAnimation: true,
-                        repeatForever: true,
-                        animatedTexts: desktopList,
-                      ),
-                    ],
-                  ),
+                  // Row(
+                  //   crossAxisAlignment: CrossAxisAlignment.end,
+                  //   children: [
+                  //     const Text("A ",
+                  //         style: TextStyle(
+                  //           fontSize: 32,
+                  //           fontWeight: FontWeight.w400,
+                  //         )),
+                  //     AnimatedTextKit(
+                  //       isRepeatingAnimation: true,
+                  //       repeatForever: true,
+                  //       animatedTexts: desktopList,
+                  //     ),
+                  //   ],
+                  // ),
                   Space.y(1.5.w)!,
                   Padding(
                     padding: EdgeInsets.only(right: 10.w),
@@ -83,7 +83,7 @@ class HomeDesktop extends StatelessWidget {
                   ),
                   Space.y(3.w)!,
                   ColorChageButton(
-                    text: 'download cv',
+                    text: 'view cv',
                     onTap: () {
                       html.window.open(resume, "pdf");
                     },

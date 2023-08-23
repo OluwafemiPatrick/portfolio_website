@@ -27,17 +27,17 @@ List<ServicesUtils> servicesUtils = [
     tool: ['Flutter', 'React Native'],
   ),
   ServicesUtils(
-    name: 'UI/UX Designing',
-    icon: 'assets/icons/graphic.svg',
-    description:
-        "I'm creating elegant designs suited to your needs following core design theory. ",
-    tool: ['Adobe XD', 'Figma', 'Photoshop'],
-  ),
-  ServicesUtils(
-    name: 'Web Development',
+    name: 'Python Backend Development',
     icon: 'assets/icons/website.svg',
     description:
         "Do you have an idea for your next great website? Let's make it a reality.",
-    tool: ['Flutter', 'Html,css,js', 'Android (Kotlin or Java)'],
+    tool: ['Django, Flask', 'Html,css,js', 'Android (Kotlin or Java)'],
+  ),
+  ServicesUtils(
+    name: 'Full-Stack Development',
+    icon: 'assets/icons/graphic.svg',
+    description:
+    "I'm creating elegant designs suited to your needs following core design theory. ",
+    tool: ['Adobe XD', 'Figma', 'Photoshop'],
   ),
 ];

@@ -10,8 +10,8 @@ class _NavbarDesktop extends StatefulWidget {
 class _NavbarDesktopState extends State<_NavbarDesktop> {
   @override
   Widget build(BuildContext context) {
+
     Size size = MediaQuery.of(context).size;
-    // theme
     var theme = Theme.of(context);
     return BlocBuilder<ThemeCubit, ThemeState>(builder: (context, state) {
       return Container(
@@ -55,8 +55,7 @@ class _NavBarTablet extends StatelessWidget {
     var theme = Theme.of(context);
     return Container(
       color: theme.navBarColor,
-      padding: EdgeInsets.symmetric(
-          horizontal: Responsive.isTablet(context) ? 10.w : 10, vertical: 10),
+      padding: EdgeInsets.symmetric(horizontal: Responsive.isTablet(context) ? 10.w : 10, vertical: 10),
       child: Row(
         children: [
           IconButton(

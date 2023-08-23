@@ -7,9 +7,8 @@ class NavBarLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // theme
+
     var theme = Theme.of(context);
-    //
     var textSty = TextStyle(
       color: theme.textColor,
       fontWeight: FontWeight.w100,
@@ -20,7 +19,7 @@ class NavBarLogo extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text("< ", style: textSty),
-        Text("Sudesh", style: textSty),
+        Text("Oluwafemi", style: textSty),
         Text(
           Responsive.isDesktop(context) ? " />\t\t" : " />",
           style: textSty,

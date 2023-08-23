@@ -26,7 +26,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
         children: [
           const CustomSectionHeading(text: "\nProjects"),
           Space.y(1.w)!,
-          CustomSectionSubHeading(text: protfolioSubHeading),
+          CustomSectionSubHeading(text: portfolioSubHeading),
           Space.y(2.w)!,
           Wrap(
             alignment: WrapAlignment.start,
@@ -35,9 +35,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
             children: projectUtils
                 .asMap()
                 .entries
-                .map(
-                  (e) => ProjectCard(project: e.value),
-                )
+                .map((e) => ProjectCard(project: e.value))
                 .toList(),
           ),
           Space.y(3.w)!,

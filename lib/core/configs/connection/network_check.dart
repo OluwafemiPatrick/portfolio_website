@@ -9,27 +9,12 @@ class NChecking extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<ConnectedBloc, ConnectedState>(
-      listener: (context, state) {
-        // if (state is ConnectedSucessState) {
-        //   ScaffoldMessenger.of(context).showSnackBar(
-        //       const SnackBar(content: Text('Internet Connected')));
-        // } else if (state is ConnectedFailureState) {
-        //   ScaffoldMessenger.of(context)
-        //       .showSnackBar(const SnackBar(content: Text('Internet Lost')));
-        // }
-      },
+      listener: (context, state) {},
       builder: (context, state) {
         if (state is ConnectedSucessState) {
           return const MainPage();
-          // return const MainScreen();
         }
-        // else if (state is ConnectedFailureState) {
-        //   return const NoConnectionErorr();
-        // }
         else {
-          // return Container();
-          // TODO
-          // return const NoConnectionErorr();
           return const MainPage();
         }
       },
@@ -37,19 +22,16 @@ class NChecking extends StatelessWidget {
   }
 }
 
-class NoConnectionErorr extends StatelessWidget {
-  const NoConnectionErorr({Key? key}) : super(key: key);
+class NoConnectionError extends StatelessWidget {
+  const NoConnectionError({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            // LoadingAnimationWidget.staggeredDotsWave(
-            //     color: primaryColor, size: 50.0),
-            // SizedBox(height: 3.h),
+          children: [
             Text("Connection failed!"),
           ],
         ),
@@ -57,4 +39,3 @@ class NoConnectionErorr extends StatelessWidget {
     );
   }
 }
-// TODO

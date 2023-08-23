@@ -5,11 +5,9 @@ class ServiceMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height;
-
     return Column(
       children: [
-        const CustomSectionHeading(text: '\nWhat I can do?'),
+        const CustomSectionHeading(text: '\nWhat I do'),
         Space.y(3.w)!,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.w),
@@ -36,4 +34,5 @@ class ServiceMobile extends StatelessWidget {
       ],
     );
   }
+
 }

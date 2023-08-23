@@ -25,10 +25,8 @@ class _MobileDrawer extends StatelessWidget {
                       state.isDarkThemeOn
                           ? Icons.dark_mode_outlined
                           : Icons.light_mode,
-                      // color: theme.textColor,
                     ),
-                    title:
-                        Text(state.isDarkThemeOn ? "Light Mode" : "Dark Mode"),
+                    title: Text(state.isDarkThemeOn ? "Light Mode" : "Dark Mode"),
                     trailing: Switch(
                       value: state.isDarkThemeOn,
                       activeColor: theme.primaryColor,
@@ -45,7 +43,6 @@ class _MobileDrawer extends StatelessWidget {
                           child: MaterialButton(
                             hoverColor: theme.primaryColor.withAlpha(70),
                             onPressed: () {
-                              // scrollProvider.scrollMobile(e.key);
                               scrollProvider.jumpTo(e.key);
                               Navigator.pop(context);
                             },

@@ -16,8 +16,6 @@ class ContactDesktop extends StatelessWidget {
     var theme = Theme.of(context);
     Size size = MediaQuery.of(context).size;
     return Container(
-      // padding: Space.all(1, 1),
-      // padding: EdgeInsets.symmetric(horizontal: AppDimensions.normalize(30)),
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
