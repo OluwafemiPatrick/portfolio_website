@@ -1,25 +1,25 @@
 import 'dart:ui';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mysite/app/widgets/arrow_on_top.dart';
-import 'package:mysite/app/widgets/color_chage_btn.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/core/apis/links.dart';
-import 'package:mysite/core/color/colors.dart';
-import 'package:mysite/core/configs/app.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/providers/drawer_provider.dart';
-import 'package:mysite/core/providers/scroll_provider.dart';
-import 'package:mysite/app/utils/navbar_utils.dart';
-import 'package:mysite/app/utils/utils.dart';
-import 'package:mysite/app/widgets/navbar_actions_button.dart';
-import 'package:mysite/app/widgets/navbar_logo.dart';
-import 'package:mysite/core/res/responsive.dart';
-import 'package:mysite/core/theme/cubit/theme_cubit.dart';
+import 'package:oluwafemi_patrick/app/widgets/arrow_on_top.dart';
+import 'package:oluwafemi_patrick/app/widgets/color_chage_btn.dart';
+import 'package:oluwafemi_patrick/changes/links.dart';
+import 'package:oluwafemi_patrick/core/apis/links.dart';
+import 'package:oluwafemi_patrick/core/color/colors.dart';
+import 'package:oluwafemi_patrick/core/configs/app.dart';
+import 'package:oluwafemi_patrick/core/configs/configs.dart';
+import 'package:oluwafemi_patrick/core/providers/drawer_provider.dart';
+import 'package:oluwafemi_patrick/core/providers/scroll_provider.dart';
+import 'package:oluwafemi_patrick/app/utils/navbar_utils.dart';
+import 'package:oluwafemi_patrick/app/utils/utils.dart';
+import 'package:oluwafemi_patrick/app/widgets/navbar_actions_button.dart';
+import 'package:oluwafemi_patrick/app/widgets/navbar_logo.dart';
+import 'package:oluwafemi_patrick/core/res/responsive.dart';
+import 'package:oluwafemi_patrick/core/theme/cubit/theme_cubit.dart';
 import 'package:provider/provider.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:flutter/material.dart';
-import 'package:mysite/core/util/constants.dart';
+import 'package:oluwafemi_patrick/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 part 'widgets/_navbar_desktop.dart';
 part 'widgets/_mobile_drawer.dart';
@@ -96,9 +96,8 @@ class MainPage extends StatelessWidget {
               if (!state.isDarkThemeOn)
                 Align(
                   alignment: Alignment.center,
-                  // BG01.png
                   child: Image.asset(
-                    'assets/imgs/5424482.JPG',
+                    'assets/images/5424482.JPG',
                     opacity: const AlwaysStoppedAnimation<double>(0.2),
                     width: width,
                     height: height,

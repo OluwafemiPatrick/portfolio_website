@@ -37,10 +37,8 @@ class EntranceFaderState extends State<EntranceFader>
   void initState() {
     super.initState();
     _controller = AnimationController(vsync: this, duration: widget.duration);
-    _dxAnimation =
-        Tween(begin: widget.offset.dx, end: 0.0).animate(_controller!);
-    _dyAnimation =
-        Tween(begin: widget.offset.dy, end: 0.0).animate(_controller!);
+    _dxAnimation = Tween(begin: widget.offset.dx, end: 0.0).animate(_controller!);
+    _dyAnimation = Tween(begin: widget.offset.dy, end: 0.0).animate(_controller!);
     Future.delayed(widget.delay, () {
       if (mounted) {
         _controller!.forward();

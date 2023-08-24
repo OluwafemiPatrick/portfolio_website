@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/app/utils/contact_utils.dart';
-import 'package:mysite/app/widgets/custom_text_heading.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/changes/strings.dart';
-import 'package:mysite/core/color/colors.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/util/constants.dart';
+import 'package:oluwafemi_patrick/app/utils/contact_utils.dart';
+import 'package:oluwafemi_patrick/app/widgets/custom_text_heading.dart';
+import 'package:oluwafemi_patrick/changes/links.dart';
+import 'package:oluwafemi_patrick/changes/strings.dart';
+import 'package:oluwafemi_patrick/core/color/colors.dart';
+import 'package:oluwafemi_patrick/core/configs/configs.dart';
+import 'package:oluwafemi_patrick/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 
 class ContactDesktop extends StatelessWidget {
@@ -44,7 +44,7 @@ class ContactDesktop extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          contactHeadding,
+                          contactHeading,
                           style: TextStyle(
                             height: 1.2,
                             fontSize: 8.sp,
@@ -54,7 +54,7 @@ class ContactDesktop extends StatelessWidget {
 
                         Space.y(1.w)!,
                         Text(
-                          contactSubHeadding,
+                          contactSubHeading,
                           style: const TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.w100,

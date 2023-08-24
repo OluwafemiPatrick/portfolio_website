@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/app/sections/about/about_desktop.dart';
-import 'package:mysite/app/sections/about/about_mobile.dart';
+import 'package:oluwafemi_patrick/app/sections/about/about_desktop.dart';
+import 'package:oluwafemi_patrick/app/sections/about/about_mobile.dart';
 
 import '../../../core/res/responsive.dart';
 

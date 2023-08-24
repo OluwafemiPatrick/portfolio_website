@@ -1,13 +1,13 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:mysite/app/widgets/color_chage_btn.dart';
-import 'package:mysite/changes/img.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/changes/strings.dart';
-import 'package:mysite/core/animations/entrance_fader.dart';
-import 'package:mysite/core/animations/zoom_animation.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/res/responsive_size.dart';
+import 'package:oluwafemi_patrick/app/widgets/color_chage_btn.dart';
+import 'package:oluwafemi_patrick/changes/img.dart';
+import 'package:oluwafemi_patrick/changes/links.dart';
+import 'package:oluwafemi_patrick/changes/strings.dart';
+import 'package:oluwafemi_patrick/core/animations/entrance_fader.dart';
+import 'package:oluwafemi_patrick/core/animations/zoom_animation.dart';
+import 'package:oluwafemi_patrick/core/configs/configs.dart';
+import 'package:oluwafemi_patrick/core/res/responsive_size.dart';
 import 'package:sizer/sizer.dart';
 import 'package:universal_html/html.dart' as html;
 
@@ -30,7 +30,6 @@ class HomeMobile extends StatelessWidget {
                 hellotag,
                 style: AppText.h3!.copyWith(fontSize: isFontSize(context, 16)),
               ),
-              // Space.x!,
               Image.asset(StaticImage.hi, height: 10.sp),
             ],
           ),
@@ -60,7 +59,6 @@ class HomeMobile extends StatelessWidget {
               ),
             ],
           ),
-
           Space.y(2.w)!,
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,

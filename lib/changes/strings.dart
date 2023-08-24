@@ -1,14 +1,14 @@
-String hellotag = '''Welcome to my space, I am  ''';
+String hellotag = '''Welcome to my space  ''';
 
-String yourname = "Oluwafemi Patrick,";
+String yourname = "Oluwafemi Patrick O.";
 
 String animationtxt1 = " Mobile Application Developer";
 String animationtxt2 = " Web Developer";
 String animationtxt3 = " Full-Stack Engineer";
 
 //
-String contactHeadding = "Let’s try my service now!";
-String contactSubHeadding =
+String contactHeading = "Let’s try my service now!";
+String contactSubHeading =
     "Let’s work together and make everything super cute and super useful.";
 //
 String miniDescription =

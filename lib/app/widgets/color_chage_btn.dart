@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/core/color/colors.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/res/responsive.dart';
+import 'package:oluwafemi_patrick/core/color/colors.dart';
+import 'package:oluwafemi_patrick/core/configs/configs.dart';
+import 'package:oluwafemi_patrick/core/res/responsive.dart';
 
 class ColorChageButton extends StatelessWidget {
   final String text;

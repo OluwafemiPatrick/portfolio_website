@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/app/utils/contact_utils.dart';
-import 'package:mysite/app/widgets/custom_text_heading.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/changes/strings.dart';
-import 'package:mysite/core/color/colors.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/util/constants.dart';
+import 'package:oluwafemi_patrick/app/utils/contact_utils.dart';
+import 'package:oluwafemi_patrick/app/widgets/custom_text_heading.dart';
+import 'package:oluwafemi_patrick/changes/links.dart';
+import 'package:oluwafemi_patrick/changes/strings.dart';
+import 'package:oluwafemi_patrick/core/color/colors.dart';
+import 'package:oluwafemi_patrick/core/configs/configs.dart';
+import 'package:oluwafemi_patrick/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 
 class ContactMobileTab extends StatelessWidget {
@@ -17,11 +17,11 @@ class ContactMobileTab extends StatelessWidget {
     return Column(
       children: [
         Space.y(10.w)!,
-        CustomSectionHeading(text: contactHeadding),
+        CustomSectionHeading(text: contactHeading),
         Space.y(3.w)!,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.w),
-          child: CustomSectionSubHeading(text: contactSubHeadding),
+          child: CustomSectionSubHeading(text: contactSubHeading),
         ),
         Space.y(5.w)!,
         InkWell(

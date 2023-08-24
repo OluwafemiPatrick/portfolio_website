@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/core/color/colors.dart';
+import 'package:oluwafemi_patrick/core/color/colors.dart';
 import 'package:flutter/scheduler.dart';
 
 class AppTheme {

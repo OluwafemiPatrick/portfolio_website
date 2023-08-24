@@ -1,16 +1,14 @@
-import 'package:mysite/app/sections/home/widgets/animation_text.dart';
-import 'package:mysite/core/animations/zoom_animation.dart';
-import 'package:mysite/core/res/responsive_size.dart';
+import 'package:oluwafemi_patrick/core/animations/zoom_animation.dart';
+import 'package:oluwafemi_patrick/core/res/responsive_size.dart';
 import 'package:sizer/sizer.dart';
 import 'package:universal_html/html.dart' as html;
-import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:mysite/app/widgets/color_chage_btn.dart';
-import 'package:mysite/changes/img.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/changes/strings.dart';
-import 'package:mysite/core/animations/entrance_fader.dart';
-import 'package:mysite/core/configs/configs.dart';
+import 'package:oluwafemi_patrick/app/widgets/color_chage_btn.dart';
+import 'package:oluwafemi_patrick/changes/img.dart';
+import 'package:oluwafemi_patrick/changes/links.dart';
+import 'package:oluwafemi_patrick/changes/strings.dart';
+import 'package:oluwafemi_patrick/core/animations/entrance_fader.dart';
+import 'package:oluwafemi_patrick/core/configs/configs.dart';
 
 class HomeDesktop extends StatelessWidget {
   const HomeDesktop({Key? key}) : super(key: key);
@@ -50,7 +48,14 @@ class HomeDesktop extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Space.y(0.5.w)!,
+                  Space.y(1.w)!,
+                  Text('I am ...',
+                      style: TextStyle(
+                        fontSize: isFontSize(context, 20),
+                        fontWeight: FontWeight.w400,
+                        color: theme.textColor.withOpacity(0.6),
+                      )),
+                  Space.y(1.w)!,
                   Text(yourname,
                       style: const TextStyle(
                         fontSize: 50,
