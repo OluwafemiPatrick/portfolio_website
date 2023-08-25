@@ -17,10 +17,10 @@ String miniDescription =
 String aboutMeText =
     "I am an experienced mobile app developer and full-stack engineer with over 6 years of hands-on expertise in developing enterprise solutions. "
     "My mission is to bring businesses' software visions to life, helping them achieve their goals through innovative and practical implementations.\n"
-    "\nWith a robust background, I have successfully created and launched diverse mobile applications tailored to businesses' unique needs. "
+    "\n\nWith a robust background, I have successfully created and launched several web and mobile applications tailored to businesses' unique needs. "
     "My skills span tools like Flutter, React, Swift, and Kotlin, ensuring top-notch user experiences across various devices. As a versatile full-stack engineer, "
     "I am well-versed in both frontend and backend technologies, using frameworks like Django and Flask, and databases like MongoDB and MySQL to construct "
-    "reliable server-side features.\n \nMy holistic approach, which integrates technology, business insights, and user expectations, guarantees solutions that "
+    "reliable server-side features.\n \n\nMy holistic approach, which integrates technology, business insights, and user expectations, guarantees solutions that "
     "remain at the forefront of innovation. I'm enthusiastic about driving your projects to success by leveraging my expertise and dedication to excellence.";
 
 String servicesSubHeading = "I help startups and businesses bring their software products to life.";
