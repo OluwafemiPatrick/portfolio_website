@@ -37,6 +37,7 @@ const grayBack = LinearGradient(
   end: Alignment.bottomRight,
   colors: [Color(0XFF2E2D36), Color(0XFF11101D)],
 );
+
 const grayWhite = LinearGradient(
   begin: Alignment.topLeft,
   end: Alignment.bottomRight,
@@ -61,6 +62,7 @@ BoxShadow primaryColorShadow = BoxShadow(
   blurRadius: 12.0,
   offset: const Offset(0.0, 0.0),
 );
+
 BoxShadow blackColorShadow = BoxShadow(
   color: Colors.black.withAlpha(100),
   blurRadius: 12.0,

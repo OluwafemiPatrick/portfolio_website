@@ -24,14 +24,15 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
-          const CustomSectionHeading(text: "\nProjects"),
+          const CustomSectionHeading(text: "My Projects"),
           Space.y(1.w)!,
           CustomSectionSubHeading(text: portfolioSubHeading),
           Space.y(2.w)!,
           Wrap(
             alignment: WrapAlignment.start,
             crossAxisAlignment: WrapCrossAlignment.start,
-            runSpacing: 3.w,
+            runSpacing: 10.w,
+            spacing: 3.w,
             children: projectUtils
                 .asMap()
                 .entries
@@ -46,8 +47,8 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
               child: Text(
                 'See More',
                 style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
                 ),
               ),
             ),

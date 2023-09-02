@@ -50,7 +50,15 @@ class HomeTab extends StatelessWidget {
                     ),
                   ],
                 ),
-                Space.y(1.w)!,
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 10),
+                  child: Text('I am ...',
+                    style: TextStyle(
+                        fontSize: isFontSize(context, 12),
+                        fontWeight: FontWeight.w100,
+                        color: theme.textColor.withOpacity(0.6)),
+                  ),
+                ),
                 Text(
                   yourname,
                   style: TextStyle(
@@ -92,7 +100,7 @@ class HomeTab extends StatelessWidget {
                 ),
                 Space.y(2.w)!,
                 ColorChageButton(
-                  text: 'download cv',
+                  text: 'view resume',
                   onTap: () {
                     html.window.open(resume, "pdf");
                   },

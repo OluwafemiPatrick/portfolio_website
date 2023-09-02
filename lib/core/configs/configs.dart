@@ -5,5 +5,4 @@ export '../theme/app_theme.dart';
 export 'others/ui_props.dart';
 export 'others/space.dart';
 export 'others/space_ext.dart';
-export 'ui.dart';
 export 'others/date_ext.dart';

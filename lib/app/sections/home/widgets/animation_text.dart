@@ -16,23 +16,23 @@ List<TyperAnimatedText> desktopList = [
 
 List<TyperAnimatedText> tabList = [
   TyperAnimatedText(animationtxt1,
-      speed: const Duration(milliseconds: 50),
+      speed: const Duration(milliseconds: 75),
       textStyle: AppText.h2!.copyWith(fontSize: 20)),
   TyperAnimatedText(animationtxt2,
-      speed: const Duration(milliseconds: 50),
+      speed: const Duration(milliseconds: 75),
       textStyle: AppText.h2!.copyWith(fontSize: 20)),
   TyperAnimatedText(animationtxt3,
-      speed: const Duration(milliseconds: 50),
+      speed: const Duration(milliseconds: 75),
       textStyle: AppText.h2!.copyWith(fontSize: 20))
 ];
 List<TyperAnimatedText> mobileList = [
   TyperAnimatedText(animationtxt1,
-      speed: const Duration(milliseconds: 50),
+      speed: const Duration(milliseconds: 75),
       textStyle: AppText.h2!.copyWith(fontSize: 16)),
   TyperAnimatedText(animationtxt2,
-      speed: const Duration(milliseconds: 50),
+      speed: const Duration(milliseconds: 75),
       textStyle: AppText.h2!.copyWith(fontSize: 16)),
   TyperAnimatedText(animationtxt3,
-      speed: const Duration(milliseconds: 50),
+      speed: const Duration(milliseconds: 75),
       textStyle: AppText.h2!.copyWith(fontSize: 16))
 ];

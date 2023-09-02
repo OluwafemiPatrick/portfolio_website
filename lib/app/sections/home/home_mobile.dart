@@ -33,7 +33,16 @@ class HomeMobile extends StatelessWidget {
               Image.asset(StaticImage.hi, height: 10.sp),
             ],
           ),
-          // Space.y(1.w)!,
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 10.0),
+            child: Text(
+              "I am ...",
+              style: TextStyle(
+                fontSize: isFontSize(context, 12),
+                fontWeight: FontWeight.w400,
+              ),
+            ),
+          ),
           Text(
             yourname,
             style: TextStyle(
@@ -41,14 +50,14 @@ class HomeMobile extends StatelessWidget {
               fontWeight: FontWeight.w600,
             ),
           ),
-          Space.y(1.w)!,
+          Space.y(2.w)!,
           Row(
-            crossAxisAlignment: CrossAxisAlignment.end,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 "A ",
                 style: TextStyle(
-                  fontSize: isFontSize(context, 18),
+                  fontSize: isFontSize(context, 16),
                   fontWeight: FontWeight.w400,
                 ),
               ),
@@ -64,7 +73,7 @@ class HomeMobile extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               ColorChageButton(
-                text: 'download cv',
+                text: 'view resume',
                 onTap: () {
                   html.window.open(resume, "pdf");
                 },

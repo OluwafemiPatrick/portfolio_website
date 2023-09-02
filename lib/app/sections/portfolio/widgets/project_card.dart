@@ -19,9 +19,10 @@ class ProjectCardState extends State<ProjectCard> {
 
   @override
   Widget build(BuildContext context) {
-    // double width = MediaQuery.of(context).size.width;
+
     double height = MediaQuery.of(context).size.height;
     var theme = Theme.of(context);
+
     return InkWell(
       hoverColor: Colors.transparent,
       splashColor: Colors.transparent,
@@ -59,8 +60,9 @@ class ProjectCardState extends State<ProjectCard> {
                   Text(
                     widget.project.titles,
                     style: TextStyle(
-                      fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.w600,
                       color: isHover ? whiteColor : theme.textColor,
+                      fontSize: 16
                     ),
                     textAlign: TextAlign.center,
                   ),
@@ -70,6 +72,7 @@ class ProjectCardState extends State<ProjectCard> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: isHover ? whiteColor : theme.textColor,
+                      fontSize: 14
                     ),
                   ),
                   SizedBox(height: height * 0.01),
